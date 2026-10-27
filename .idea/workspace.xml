@@ -22,61 +22,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="9.724915446111332E-5" />
-      <entry key="MS500" value="0.2731371666443795" />
-      <entry key="S2" value="1.215595976843211" />
-      <entry key="S5" value="1.6582778189840086" />
-      <entry key="S10" value="2.0145834529376145" />
-      <entry key="S30" value="4.4733131528909" />
-      <entry key="S60" value="8.305397097548637" />
-      <entry key="M2" value="13.79458321508751" />
-      <entry key="M5" value="35.76240356327298" />
-      <entry key="M10" value="87.47660973395374" />
-      <entry key="M15" value="133.35609844368503" />
-      <entry key="M30" value="221.17523011015638" />
-      <entry key="H1" value="296.32689491164535" />
-      <entry key="H2" value="347.0519879592322" />
-      <entry key="H4" value="376.7912321478581" />
-      <entry key="D1" value="404.2040479540883" />
-      <entry key="W1" value="409.16532721740367" />
+      <entry key="MS100" value="2.514594513944991E-7" />
+      <entry key="MS500" value="0.08374148311537878" />
+      <entry key="S2" value="1.1909483313539415" />
+      <entry key="S5" value="2.597054458094823" />
+      <entry key="S10" value="3.618309209781526" />
+      <entry key="S30" value="6.081693190160573" />
+      <entry key="S60" value="9.186203046981259" />
+      <entry key="M2" value="13.207327472389688" />
+      <entry key="M5" value="28.10157389974569" />
+      <entry key="M10" value="66.72920567699738" />
+      <entry key="M15" value="109.07073076572999" />
+      <entry key="M30" value="206.4500551299946" />
+      <entry key="H1" value="302.63954870780526" />
+      <entry key="H2" value="372.85324756190835" />
+      <entry key="H4" value="415.738401112909" />
+      <entry key="D1" value="456.302285897722" />
+      <entry key="W1" value="463.74489738799673" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000014834811" />
-      <entry key="S5" value="1.0004802405766924" />
-      <entry key="S10" value="1.0366692628197895" />
-      <entry key="S30" value="1.6873300879219855" />
-      <entry key="S60" value="2.4741990297082475" />
-      <entry key="M2" value="3.279424082714058" />
-      <entry key="M5" value="4.339283261233623" />
-      <entry key="M10" value="5.704995405887593" />
-      <entry key="M15" value="6.984084315001757" />
-      <entry key="M30" value="9.889141412988787" />
-      <entry key="H1" value="12.842484737466231" />
-      <entry key="H2" value="15.050263871139" />
-      <entry key="H4" value="16.41651627712198" />
-      <entry key="D1" value="17.71941407168525" />
-      <entry key="W1" value="17.959485463454488" />
+      <entry key="MS100" value="1.000000000000001" />
+      <entry key="MS500" value="1.0010167513080197" />
+      <entry key="S2" value="1.1975030368738904" />
+      <entry key="S5" value="1.7115737740718893" />
+      <entry key="S10" value="2.2311775529479414" />
+      <entry key="S30" value="3.0718543607613924" />
+      <entry key="S60" value="3.462940234613411" />
+      <entry key="M2" value="3.736191141814626" />
+      <entry key="M5" value="4.513578072508874" />
+      <entry key="M10" value="6.121606386234391" />
+      <entry key="M15" value="7.6402583836496545" />
+      <entry key="M30" value="11.159326545370714" />
+      <entry key="H1" value="14.932595077096186" />
+      <entry key="H2" value="17.887539675118255" />
+      <entry key="H4" value="19.769987815775554" />
+      <entry key="D1" value="21.60120221909118" />
+      <entry key="W1" value="21.94232132450636" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.6035256767669937E-4" />
-      <entry key="MS500" value="0.4086509674528084" />
-      <entry key="S2" value="1.8089697769253463" />
-      <entry key="S5" value="2.466312011429892" />
-      <entry key="S10" value="2.936004044666137" />
-      <entry key="S30" value="6.058165325383982" />
-      <entry key="S60" value="10.67610525004777" />
-      <entry key="M2" value="16.98530137415936" />
-      <entry key="M5" value="40.04096664153262" />
-      <entry key="M10" value="93.13298035181822" />
-      <entry key="M15" value="140.29656013656535" />
-      <entry key="M30" value="231.03051535329084" />
-      <entry key="H1" value="309.1466488182301" />
-      <entry key="H2" value="362.08878239471153" />
-      <entry key="H4" value="393.2003727320733" />
-      <entry key="D1" value="421.92213183963446" />
-      <entry key="W1" value="427.12462001141574" />
+      <entry key="MS100" value="7.100033678014712E-6" />
+      <entry key="MS500" value="0.16084450010845555" />
+      <entry key="S2" value="1.811954297179556" />
+      <entry key="S5" value="3.9087396290476466" />
+      <entry key="S10" value="5.561958471352622" />
+      <entry key="S30" value="8.984444332746154" />
+      <entry key="S60" value="12.530136968722978" />
+      <entry key="M2" value="16.86735701749342" />
+      <entry key="M5" value="32.570236456061586" />
+      <entry key="M10" value="72.81280547873568" />
+      <entry key="M15" value="116.67469192042722" />
+      <entry key="M30" value="217.5779414956526" />
+      <entry key="H1" value="317.5492885823264" />
+      <entry key="H2" value="390.72659551436095" />
+      <entry key="H4" value="435.50041957456443" />
+      <entry key="D1" value="477.90201906678016" />
+      <entry key="W1" value="485.68700511231367" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{

@@ -1,66 +1,20 @@
-class Calculator
-{
-    void print(int a) {
-        System.out.println("print(int) is called");
-    }
-
-    void print(double a)
-    {
-        System.out.println("print(double) is called");
-    }
-
-    void print(int a, int b)
-    {
-        System.out.println("print(int) called :" + (a+b));
-    }
-
-    void print(double a, double b)
-    {
-        System.out.println("print(double) is called : " + (a+b));
-    }
-}
-
 class Example
 {
-    void display(long a)
+    void diplay(int... numbers)
     {
-        System.out.println("print (long) is called");
-    }
-
-    void display(double a)
-    {
-        System.out.println("print(double) is called");
+        System.out.println("print (int...) called with " + numbers.length + "arguments");
     }
 }
-
 
 public class Main {
     public static void main(String[] args) {
-        Calculator calc = new Calculator();
-
-        Example ex = new Example();
-
-
-
-        /* EXACT MATCH
-        * where Arguments types  passed are matched with parameters we sayy exact match.
-        * Java uses this method directly
-        * */
-
-//        calc.print(10);
-//        calc.print(1.1);
-//
-//        calc.print(10,20.1);
-//        calc.print(11.1,10);
 
         /*
-        Type Promotion: When there is no exact match , java tries to promote the type to next wider type..
+        Varargs: if there is no exact match or promotable match java uses a Varargs method (Variable length augmented list)
          */
+        Example ex = new Example();
 
-        ex.display(10); // int is promoted to long and display(long) is called....
-        ex.display(10.444444444444);// float is promoted to double hence display(double) is called.....
-
-
+        ex.diplay(0,1,2,3,4,5,6);
 
     }
 }
