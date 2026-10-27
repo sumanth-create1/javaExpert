@@ -1,54 +1,40 @@
-class Computer
-{
-    public void playMusic()
-    {
-        System.out.println("Music is playing...");
-    }
-
-    public String getMeAPen(int cost)
-    {
-        if(cost >= 10)
-            return "Pen";
-
-        return "Nothing";
-    }
-}
-
 class Calculator
 {
-    public int add(int n1, int n2)
-    {
-        return n1 + n2;
+    void print(int a) {
+        System.out.println("print(int) is called");
     }
 
-    public int add(int n1, int n2, int n3)
+    void print(double a)
     {
-        return n1 + n2 + n3;
+        System.out.println("print(double) is called");
     }
 
-    public double add(double n1, int n2)
+    void print(int a, int b)
     {
-        return n1 + n2;
+        System.out.println("print(int) called :" + (a+b));
+    }
+
+    void print(double a, double b)
+    {
+        System.out.println("print(double) is called : " + (a+b));
     }
 }
-
 
 
 public class Main {
     public static void main(String[] args) {
+        Calculator calc = new Calculator();
 
-//        Computer com = new Computer();
-//
-//        com.playMusic();
-//        String res = com.getMeAPen(1);
-//
-//        System.out.println(res);
+        /* EXACT MATCH
+        * where Arguments types  passed are matched with parameters we sayy exact match.
+        * Java uses this method directly
+        * */
 
-        Calculator cal = new Calculator();
+        calc.print(10);
+        calc.print(1.1);
 
-        double r1 = cal.add(1.00, 2);
-
-        System.out.println(r1);
+        calc.print(10,20.1);
+        calc.print(11.1,10);
 
     }
 }
