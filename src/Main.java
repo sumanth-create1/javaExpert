@@ -1,20 +1,28 @@
 class Example
 {
-    void diplay(int... numbers)
-    {
-        System.out.println("print (int...) called with " + numbers.length + "arguments");
+    void display(int a, long b) {
+        System.out.println("print(int ,long) is called");
     }
+
+    void display(long a, int b)
+    {
+        System.out.println("print(long , int) called");
+    }
+
 }
 
 public class Main {
     public static void main(String[] args) {
 
         /*
-        Varargs: if there is no exact match or promotable match java uses a Varargs method (Variable length augmented list)
+        this is ambiguity and compile time erros
          */
+
         Example ex = new Example();
 
-        ex.diplay(0,1,2,3,4,5,6);
+        ex.display(10,2000);
+        ex.display(100000, 20);// compile time error : reference to display is ambiguious...
+
 
     }
 }
