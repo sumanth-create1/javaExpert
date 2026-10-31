@@ -1,26 +1,23 @@
-import java.io.IOException;
-
-class Example
+class Lazyload
 {
-    static int value;
-
     static
     {
-        value = 100;
-
-        System.out.println("in static block-1");
-    }
-
-    static
-    {
-        System.out.println("in static block 2");
+        System.out.println("Lazyload class is now initialized");
     }
 }
 
-
 public class Main {
-    public static void main(String[] args) throws  ClassNotFoundException {
-        Class.forName("Example");
+    public static void main(String[] args) {
+
+        System.out.println("Main method starts");
+
+        Lazyload obj;
+
+        System.out.println("still no class loading");
+
+        obj = new Lazyload();
+
+
 
     }
 }
