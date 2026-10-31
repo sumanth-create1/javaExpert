@@ -1,44 +1,26 @@
-class Mobile{
-    String brand;
-    String color;
+import java.io.IOException;
 
-    static String name;
+class Example
+{
+    static int value;
 
-    public void show()
+    static
     {
-        System.out.println(brand + " : " + color + " : " + name);
+        value = 100;
+
+        System.out.println("in static block-1");
+    }
+
+    static
+    {
+        System.out.println("in static block 2");
     }
 }
 
-/*
-this is a static key word once it is static then it is available to all its instances
-
-it belongs to class not to objects or instances we create...
- */
-
 
 public class Main {
-    public static void main(String[] args) {
-
-        Mobile obj1 = new Mobile();
-        Mobile obj2 = new Mobile();
-
-        obj1.brand = "Apple";
-        obj1.color = "Red";
-
-        obj2.brand = "samsung";
-        obj2.color = "Gold";
-
-
-        Mobile.name = "phone";
-
-        obj1.show();
-        obj2.show();
-
-
-
-
-
+    public static void main(String[] args) throws  ClassNotFoundException {
+        Class.forName("Example");
 
     }
 }
