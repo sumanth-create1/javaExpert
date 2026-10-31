@@ -1,16 +1,41 @@
+class Mobile{
+    String brand;
+    String color;
+
+    static String name;
+
+    public void show()
+    {
+        System.out.println(brand + " : " + color + " : " + name);
+    }
+}
+
+/*
+this is a static key word once it is static then it is available to all its instances
+
+it belongs to class not to objects or instances we create...
+ */
+
+
 public class Main {
     public static void main(String[] args) {
 
-       int nums[] = new int[4];
+        Mobile obj1 = new Mobile();
+        Mobile obj2 = new Mobile();
 
-        nums[0] = 1;
-        nums[1] = 2;
-        nums[2] = 3;
-        nums[3] = 4;
+        obj1.brand = "Apple";
+        obj1.color = "Red";
 
-        for(int i = 0; i < 4; i++) {
-            System.out.print(nums[i] + " ");
-        }
+        obj2.brand = "samsung";
+        obj2.color = "Gold";
+
+
+        Mobile.name = "phone";
+
+        obj1.show();
+        obj2.show();
+
+
 
 
 
