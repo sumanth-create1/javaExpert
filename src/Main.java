@@ -8,18 +8,18 @@ class Human
         return age;
     }
 
-    public void setAge(int a)
+    public void setAge(int age)
     {
-        age = a;
+        this.age = age;
     }
 
     public String getName()
     {
         return name;
     }
-    public void setName(String n)
+    public void setName(String name)
     {
-        name = n;
+        this.name = name;
     }
 
 
@@ -32,7 +32,7 @@ public class Main {
 
         Human obj = new Human();
 
-        obj.setAge(12);
+        obj.setAge(29);
         obj.setName("Satya Sumanth");
 
 
