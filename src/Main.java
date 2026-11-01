@@ -1,19 +1,44 @@
-class Parent
+class Human
 {
-    static{
-        System.out.println("Parent class");
+    private int age;
+    private String name;
+
+    public int getAge()
+    {
+        return age;
     }
+
+    public void setAge(int a)
+    {
+        age = a;
+    }
+
+    public String getName()
+    {
+        return name;
+    }
+    public void setName(String n)
+    {
+        name = n;
+    }
+
+
 }
 
-class Child extends Parent{
-    static{
-        System.out.println("child class");
-    }
-}
+
+
 public class Main {
     public static void main(String[] args) {
 
-        new Child();
+        Human obj = new Human();
+
+        obj.setAge(12);
+        obj.setName("Satya Sumanth");
+
+
+        System.out.println(obj.getAge()+ " : " + obj.getName());
+
+        System.out.println("this is encapsulation in java.");
 
 
     }
