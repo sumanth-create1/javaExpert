@@ -1,42 +1,38 @@
-class Human
+class Calc
 {
-    private int age;
-    private String name;
-
-    public Human()
+    public int add(int n1, int n2)
     {
-        System.out.println("this is a default constructor");
-        age = 30;
-        name = "Sumanth";
+        return n1 + n2;
     }
-
-    public Human(int age, String name)
+    public int sub(int n1, int n2)
     {
-        System.out.println("this is a parameterized constructor");
-        this.age = age;
-        this.name = name;
+        return n1 - n2;
     }
+}
 
-    public String getName() {
-        return name;
-    }
-
-    public int getAge()
+class AdvCalc extends Calc
+{
+    public int multi(int n1, int n2)
     {
-        return age;
+        return n1 * n2;
+    }
+    public int div(int n1, int n2)
+    {
+        return n1/n2;
     }
 }
 
 public class Main {
     public static void main(String[] args) {
+        Calc obj = new Calc();
+        int r1 = obj.add(12,24);
+        int r2 = obj.sub(24,12);
 
-        Human obj = new Human();
-        System.out.println(obj.getName() + " : " + obj.getAge());
+        AdvCalc obj1 = new AdvCalc();
+        int r3 = obj1.multi(12, 2);
+        int r4 = obj1.div(12, 6);
 
-        Human obj1 = new Human(12, "satya sumanth");
-        System.out.println(obj1.getName() + " : " + obj1.getAge());
-
-
+        System.out.println(r1 + " " + r2 + " " + r3 + " " + r4);
 
     }
 }
