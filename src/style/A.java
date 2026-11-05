@@ -1,5 +1,5 @@
 package style;
 
 public class A {
-    public int marks = 10;
+    private int marks = 10;
 }
