@@ -1,6 +1,7 @@
 class A{
     public A()
     {
+        this(50);
         System.out.println("in A");
     }
 
@@ -13,13 +14,12 @@ class A{
 class B extends A{
     public B()
     {
-        super(10);
+        this(50);
         System.out.println("in B");
     }
 
     public B(int num)
     {
-        super(10);
         System.out.println("in int B");
     }
 }
@@ -40,11 +40,20 @@ in int A
 in B
 
 yup we have got our desired output
+
+Now how to use this keyword???
+
+let see,
+it will execute the constructor of the same class......
+when we pass this(Paramater) it will execute parameterised constructor
+
+
  */
 
 
 public class Main {
     public static void main(String[] args) {
+
 
         B obj = new B();
 
