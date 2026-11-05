@@ -1,6 +1,6 @@
 # Java Expert
 
-A Java learning and practice repository containing programs and examples developed while learning Java.
+style.A Java learning and practice repository containing programs and examples developed while learning Java.
 
 ## Topics Covered
 - Methods in java
