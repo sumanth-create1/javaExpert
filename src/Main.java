@@ -1,29 +1,44 @@
 class Iphone
 {
-    // WireLess charging
-    void charge()
+    void cameraFeature()
     {
-        System.out.println("Charging Iphone wirelessly");
+        System.out.println("Standard Iphone Camera");
     }
-    // Fast Charging
-    void charge(int watts)
+}
+
+class Iphone17 extends Iphone
+{
+    @Override
+    void cameraFeature()
     {
-        System.out.println("charging Iphone with " + watts + "W fast Charger");
+        System.out.println("Iphone 17: AI - enhanced photography");
     }
-    // normal Charging
-    void charge(int volts, int amps)
+}
+
+class Iphone18 extends Iphone
+{
+    @Override
+    void cameraFeature()
     {
-        System.out.println("Charging iPhone with " + volts + " V " + amps + " A power adapter.");
+        System.out.println("Iphone 18: Periscope Zoom camera");
     }
 }
 
 public class Main {
     public static void main(String[] args) {
 
-        Iphone obj = new Iphone();
+        Iphone myPhone;
 
-        obj.charge();
-        obj.charge(10);
-        obj.charge(10,20);
+        myPhone = new Iphone();
+        myPhone.cameraFeature();
+
+        myPhone = new Iphone17();
+        myPhone.cameraFeature();
+
+        myPhone = new Iphone18();
+        myPhone.cameraFeature();
+
+
+
     }
 }
