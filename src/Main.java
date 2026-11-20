@@ -1,20 +1,32 @@
+class Laptop
+{
+    String model;
+    String brand;
 
+
+}
 public class Main {
     public static void main(String[] args) {
 
-        Student student1 = new Student("50001", "Satya Suamnth", 2017);
-        Student student2 = new Student("50002", "John wick", 2018);
-        Student student3 = new Student("50003", "Bruce wayne", 2019);
+    Laptop obj = new Laptop();
+    obj.model = "Dell inspiron";
+    obj.brand = "Dell";
 
-//        student1.getInfo();
+    Laptop obj1 = new Laptop();
+    obj1.brand = "Dell inspiron";
+    obj1.model = "Dell";
 
-        student1.setName("Robert Pattinson");
+    boolean result = obj.equals(obj1);
 
-        student1.getInfo();
+    System.out.println(result);
 
-        student2.getInfo();
-        student3.getInfo();
+    /*
+    here equals method is coming from object class which is super class for every class in java
 
+    what it actually do behind the scenes...???
+
+    By default it compares references(memory addresses) of the objects...
+     */
 
 
 
